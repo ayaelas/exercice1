@@ -24,6 +24,6 @@ public class MainActivity extends AppCompatActivity {
     public void lister(View v){
         Intent i =new Intent(getApplicationContext(),Activity_lister.class);
         startActivity(i);
-    }
+    } 
 
 }
