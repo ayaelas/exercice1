@@ -17,9 +17,12 @@ public class MyDatabase extends SQLiteOpenHelper {
     public static String COL3="NOM";
     public static String COL4="ACTIVITE";
 
-    public MyDatabase(Context c){
+
+    public MyDatabase(Context c) {
         super(c,dbname,null,1);
     }
+
+
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
