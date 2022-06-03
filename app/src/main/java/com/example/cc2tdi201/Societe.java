@@ -50,4 +50,5 @@ public class Societe implements Serializable {
     }
 
 
+
 }
