@@ -41,14 +41,21 @@ public class Societe implements Serializable {
         this.nom = nom;
     }
 
+
     public String getActivite() {
         return activite;
     }
-
     public void setActivite(String activite) {
         this.activite = activite;
     }
 
 
+    public void getNom(String string) {
+    }
 
+    public void getNbemploye(int anInt) {
+    }
+
+    public void getActivite(String string) {
+    }
 }

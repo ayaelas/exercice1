@@ -2,6 +2,7 @@ package com.example.cc2tdi201;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -51,7 +52,22 @@ public class MyDatabase extends SQLiteOpenHelper {
     public static long DeleteSociete(SQLiteDatabase db, int id){
         return db.delete(table,"id="+id,null);
     }
+    public static ArrayList<Societe> getAllSociete(SQLiteDatabase db){
+        ArrayList<Societe> items = new ArrayList<>();
 
+        Cursor cur = db.rawQuery("SELECT * FROM " + table,null);
 
+        while(cur.moveToNext())
+        {
+            Societe p = new Societe();
+            p.setId(cur.getInt(0));
+            p.getNbemploye(cur.getInt(1));
+            p.getNom(cur.getString(2));
+            p.getActivite(cur.getString(3));
+            items.add(p);
+
+        }
+            return  items;
+    }
 
 }
