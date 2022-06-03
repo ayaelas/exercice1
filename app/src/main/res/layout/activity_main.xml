@@ -21,14 +21,17 @@
     <Button
         android:id="@+id/b1"
         style="@style/s"
+        android:onClick="ajouter"
         android:text="@string/btn1"
         android:layout_marginTop="60sp" />
     <Button
+        android:onClick="editer"
         android:id="@+id/b2"
         style="@style/s"
         android:text="@string/btn2"
          />
     <Button
+        android:onClick="lister"
         android:id="@+id/b3"
         android:text="@string/btn3"
         style="@style/s"/>
