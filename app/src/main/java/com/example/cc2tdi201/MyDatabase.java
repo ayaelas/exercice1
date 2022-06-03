@@ -25,7 +25,7 @@ public class MyDatabase extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
         String sql= "DROP TABLE " + TABLE_NAME;
         sqLiteDatabase.execSQL(sql);
-        onCreate(sqLiteDatabase);
+        onCreate(sqLiteDatabase); 
     }
 
 }
