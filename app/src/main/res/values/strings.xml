@@ -3,6 +3,9 @@
     <string name="btn1">Ajouter une societe</string>
     <string name="btn2">Editer une societe</string>
     <string name="btn3">Liste de toutes les societes</string>
+    <string name="l1">Tapez le nom de la societe</string>
+    <string name="l2">Tapez le secteur</string>
+    <string name="l3">Tapez nb employe</string>
     <string name="enreg">Enregistrer</string>
     <string name="annuler">Annuler</string>
     <string name="mod">Modifier</string>
