@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void editer(View v){
         Intent i =new Intent(getApplicationContext(),Activity_edit.class);
-        startActivity(i);
+        startActivity(i); 
     }
     public void lister(View v){
         Intent i =new Intent(getApplicationContext(),Activity_lister.class);
