@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState); 
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
     public void ajouter(View v){
@@ -25,5 +25,6 @@ public class MainActivity extends AppCompatActivity {
         Intent i =new Intent(getApplicationContext(),Activity_lister.class);
         startActivity(i);
     }
+
 
 }
