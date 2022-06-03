@@ -17,9 +17,19 @@
         android:gravity="left"
         android:background="@color/teal_700"
         />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-       android:id="@+id/btn1"/>
 
+    <Button
+        android:id="@+id/b1"
+        style="@style/s"
+        android:text="@string/btn1"
+        android:layout_marginTop="60sp" />
+    <Button
+        android:id="@+id/b2"
+        style="@style/s"
+        android:text="@string/btn2"
+         />
+    <Button
+        android:id="@+id/b3"
+        android:text="@string/btn3"
+        style="@style/s"/>
 </LinearLayout>
