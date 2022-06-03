@@ -48,6 +48,9 @@ public class MyDatabase extends SQLiteOpenHelper {
         a.put(COL4,e.getActivite());
         return db.update(table,a,"id="+e.getId(),null);
     }
+    public static long DeleteSociete(SQLiteDatabase db, int id){
+        return db.delete(table,"id="+id,null);
+    }
 
 
 
