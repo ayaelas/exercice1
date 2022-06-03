@@ -3,5 +3,9 @@
     <string name="btn1">Ajouter une societe</string>
     <string name="btn2">Editer une societe</string>
     <string name="btn3">Liste de toutes les societes</string>
+    <string name="enreg">Enregistrer</string>
+    <string name="annuler">Annuler</string>
+    <string name="mod">Modifier</string>
+    <string name="sup">Supprimer</string>
 
 </resources>
